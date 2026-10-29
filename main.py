@@ -10,7 +10,7 @@ def homepage():
 # įsivaizduojamo naujienų skyriaus maršrutas
 @app.route("/news")
 def news():
-    return "Čia yra naujienų skyrius"
+    return "<h1>Čia yra NAUJAS naujienų skyrius</h1>"
 
 # gaunam iš browserio skaičiuką į web app maršruto dalį
 @app.route("/news/<int:item_nr>")
